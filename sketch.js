@@ -112,7 +112,7 @@ function redBalloon() {
   red.addImage(red_balloonImage);
   red.velocityX = 3;
   red.lifetime = 150;
-  red.scale = 0.1;
+  red.scale = 1;
 }
 
 // function redBalloon() {
@@ -120,7 +120,7 @@ function redBalloon() {
 //   red.addImage(red_balloonImage);
 //   red.velocityX = 3;
 //   red.lifetime = 150;
-//   red.scale = 0.1;
+//   red.scale = 1;
 // }
 
 function blueBalloon() {
@@ -128,7 +128,7 @@ function blueBalloon() {
   blue.addImage(blue_balloonImage);
   blue.velocityX = 3;
   blue.lifetime = 150;
-  blue.scale = 0.1;
+  blue.scale = 1;
 }
 
 function greenBalloon() {
@@ -136,7 +136,7 @@ function greenBalloon() {
   green.addImage(green_balloonImage);
   green.velocityX = 3;
   green.lifetime = 150;
-  green.scale = 0.1;
+  green.scale = 1;
 }
 
 function pinkBalloon() {
@@ -144,5 +144,5 @@ function pinkBalloon() {
   pink.addImage(pink_balloonImage);
   pink.velocityX = 3;
   pink.lifetime = 150;
-  pink.scale = 0.1;
+  pink.scale = 1;
 }
